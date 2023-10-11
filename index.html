@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FIRST ALTSCHOOL WEBPAGE</title>
+    <link rel="stylesheet" href="./assets/styles/style.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+  </head>
+  <body>
+    <section>
+      <h1 title="My first test">The Main Title</h1>
+      <h2>The Top Level Heading</h2>
+      <h3>The Subheading</h3>
+      <h4>The Sub-Subheading</h4>
+      <h5>My Fifth Webpage</h5>
+      <h6>My Sixth Webpage</h6>
+      <p>My Seventh Webpage</p>
+    </section>
+
+    <section>
+      <p>My Unordered Categories</p>
+      <ul>
+        <li>Mouse</li>
+        <li>Laptop</li>
+        <li>charger</li>
+      </ul>
+    </section>
+
+    <section>
+      <p>My Ordered Categories</p>
+      <ol>
+        <li>Table</li>
+        <li>Chair</li>
+        <li>Door</li>
+      </ol>
+    </section>
+
+    <section>
+      <!-- Internal Navigation -->
+      <p>These are samples of internal links</p>
+      <a href="./">Home</a> <br />
+      <a href="./about/">About Page</a>
+    </section>
+
+    <!-- External Navigation -->
+    <section>
+      <p>This is a sample of external link</p>
+      <a href="https://www.google.com" target="_blank">Check google for more</a>
+    </section>
+
+    <section>
+      <!-- Download in html -->
+      <p>Below is what download in html looks like</p>
+      <a href="./assets/audios/s001_al-fatiha.mp3" download
+        >Download Surah Fathia here</a
+      >
+      <br />
+      <a href="./assets/images/spiral img.jpeg" download
+        >Downlaod Spiral Image here</a
+      >
+      <br />
+      <a href="./assets/videos/oOluwaTosin Bday Video.mp4" download>Download Oluwatosin Video here</a>
+    </section>
+
+    <!-- Semantic Ficaption -- This is used inside the figure. Note that the figure contains the Image, Audio, Caption, Video, Table -->
+    <figure>
+      <video src="./assets/videos/OluwaTosin Bday Video.mp4" controls>This is Oluwatosin</video>
+      <figcaption>This is Oluwatosin's Video</figcaption>
+    </figure>
+    
+    <figure>
+      <img src="./assets/images/spiral img.jpeg" alt="Spiral" />
+      <figcaption>The Spiral Image</figcaption>
+    </figure>
+    
+    <p>mark is what can be used as against bold for <mark>accessibility</mark> </p>
+    <section>
+      <h1>Secret agents</h1>
+
+      <ul>
+        <li data-id="10784">
+          Jason Walters, 003: Found dead in "A View to a Kill".
+        </li>
+        <li data-id="97865">
+          Alex Trevelyan, 006: Agent turned terrorist leader; James' nemesis in
+          "Goldeneye".
+        </li>
+        <li data-id="45732">
+          James Bond, 007: The main man; shaken but not stirred.
+        </li>
+      </ul>
+    </section>
+
+    <form action="">
+      <fieldset>
+        <legend>Kindly Fill In The Forms Below</legend>
+        <!-- This section explains how to create forms -->
+        <p>This is a tutorial that explains how forms are made in html</p>
+        <form action="fill" method="post">
+          <label for="">Type name: </label>
+          <input type="text" placeholder="Name" /> <br />
+          <label for="">Enter number: </label>
+          <input type="number" placeholder="Number" /> <br />
+          <label for="">Enter date: </label>
+          <input type="date" placeholder="date" /> <br />
+          <label for="">Enter password: </label>
+          <input type="password" placeholder="Password" /> <br />
+          <label for="">Enter telephone number: </label>
+          <input type="phone" placeholder="phone" /> <br />
+          <label for="">Enter date and time: </label>
+          <input type="datetime-local" placeholder=> <br />
+          <label for="">Search here: </label>
+          <input type="search" placeholder=> <br />
+          <label for="">enter range: </label>
+          <input type="range" placeholder=> <br />
+          <label for="">Enter date and time: </label>
+          <input type="checkbox" placeholder=> <br />
+          <label for="">Upload your picture here: </label>
+          <input type="file" placeholder=> <br />
+
+          <label for="Select One">Select an animal</label>
+          <select name="Select" id="select_animals">
+            <option value="">Dog</option>
+            <option value="">Goat</option>
+            <option value="">Cat</option>
+            <option value="">Horse</option>
+            <option value="">Lion</option>
+            <option value="">Tiger</option>
+            <option value="">Monkey</option>
+            <option value="">Shark</option>
+            <option value="">Ostrich</option>
+            <br />
+          </select>
+
+          <input type="submit" value="send" />
+        </form>
+      </fieldset>
+    </form>
+
+    <section>
+      <!-- Differentiating between inline element and block element -->
+      <!-- The width of an inline element is determined by the width of the content in it while the width of the block element is not determined by the content -->
+      <!-- samples are below -->
+      <!-- Inline elements are economical while block elements are not economical. -->
+
+      <!-- Inline Element -->
+      <p>Below is what inline element will look like when used</p>
+      <br />
+      <span>1. This is a book</span>
+      <span>2. I know I can be economical and you have to know it too</span>
+      <span>3. Try me and know that God id good!</span>
+
+      <!-- Block Element -->
+      <p>Below is what a block element will look like when used</p>
+      <div>
+        <p>1. I know i am not economical and you do not have to tell me</p>
+      </div>
+      <div>
+        2. I know I take a lot of spaces... so I do not want to hear what I look
+        like anymore
+      </div>
+    </section>
+
+    <!-- This is what the button looks like -->
+    <p>Below is what the button tag looks like in <abbr title="">html</abbr></p>
+    <button type="button">Click Me</button>
+
+    <form action="fill" method="post">
+      <!-- In the form tag, the attribute "Method can either use POST or GET" 
+      when it uses POST, information in the form will not be broadcasted or will be encoded or does not expose information
+    but when the GET method is used, the information will be broadcasted or will be decoded or exposes information-->
+      <fieldset>
+        <legend>Kindly fill in the forms below</legend>
+        <input type="email" placeholder="Enter your email here" />
+        <input type="submit" value="send" /> <br />
+        <textarea name="learning" id="learning" cols="30" rows="10"></textarea>
+      </fieldset>
+    </form>
+
+    <form>
+      <!-- This is using Legend and Label in form... The difference is clear below with usage -->
+      <fieldset>
+        <legend>Personal Information</legend>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" />
+        <!-- Other form controls -->
+      </fieldset>
+    </form>
+
+    <p>The game starts at <time datetime="2017-04-29T19:00">19:00</time>.</p>
+
+    <!-- this below is used to create the list below:
+      ul>li*10 {item $}    
+    -->
+    <ul>
+      <li>Rain</li>
+      <li>Sun</li>
+      <li>Cold</li>
+      <li>Autumn</li>
+      <li>Harmatan</li>
+    </ul>
+
+    <ol>
+      <li>Buy the next time I will see you later there</li>
+      <li>Buy the next time I will see you later there</li>
+      <li>Buy the next time I will see you later there</li>
+      <li>Buy the next time I will see you later there</li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ol>
+
+    <!-- Lorem Ipsum is used to create dummy words and "alt Z" is used to wrap long sentences -->
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
+      doloribus, tempora sint deleniti eius adipisci aperiam suscipit, quaerat
+      vel repellat laboriosam quam fugiat sapiente similique consequuntur
+      veritatis. Nihil perspiciatis rem porro sint, quod omnis neque soluta vel,
+      quibusdam odio corporis? Quisquam consectetur dignissimos natus fugiat
+      temporibus possimus delectus voluptatum sequi laborum ipsa aliquid
+      reprehenderit eos minima saepe inventore et doloremque, dolore, nam vero!
+      Dignissimos id blanditiis nam deleniti numquam corrupti adipisci sapiente
+      voluptatibus accusamus modi sit voluptas iure fugit placeat consectetur,
+      possimus, dolorem assumenda maxime eveniet architecto. Tempore, odio earum
+      ipsum aliquid necessitatibus iusto dolore esse temporibus dolorem quaerat
+      eum?
+    </p>
+
+    <section>
+      <!-- Below is the formula to get a table done in HTML using "dl, dt, dd". Note that all has "d as the beginning letter and the rest have LTD just like limited in that respectively." -->
+      <p>Below is what a table looks like in HTML</p>
+      <fieldset>
+        <legend>
+          Below is what a table looks like in HTML, do not mind the fieldset
+          used
+        </legend>
+        <dl>
+          <dt>HTML</dt>
+          <dd>Hyper Text Transfer protocol</dd>
+          <dt>CSS</dt>
+          <dd>Cascading Style Sheet</dd>
+          <dt>JS</dt>
+          <dd>JavaScript</dd>
+        </dl>
+      </fieldset>
+    </section>
+    <!-- Semantics - Header, Main, Section, Article, -->
+    <!-- This is learning how to write Semantic HTML -->
+    <header>
+      <h1>Numbers</h1>
+      <nav>
+        <a href="">One</a>
+        <a href="">Two</a>
+        <a href="">Three</a>
+        <a href="">Four</a>
+        <a href="">Five</a>
+      </nav>
+    </header>
+    <main>
+      <header>
+        <h2>More Numbers</h2>
+      </header>
+      <section>
+        <h3>From Six</h3>
+        <p>Seven</p>
+        <p>There are more numbers to be known.</p>
+      </section>
+      <section>
+        <!-- Semantic Article -->
+        <article>
+          <header>
+            <h3>The Article of Faith</h3>
+          </header>
+          <section>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet
+              suscipit non sit quis doloribus numquam, dolor eos consequatur!
+              Est debitis assumenda rem autem tempore dolor porro, ex deleniti
+              quod quibusdam at fugiat earum reiciendis explicabo officiis ut
+              quos neque nisi eveniet voluptate aliquid dolorem, corrupti
+              voluptatum. Cum, nobis dolorem. Harum, asperiores! Sapiente
+              molestias, praesentium quod fugiat optio labore facilis impedit
+              veritatis cumque excepturi incidunt debitis ipsa quae quia
+              voluptates repellendus! Qui recusandae blanditiis, quaerat
+              voluptates assumenda tenetur fuga. Aliquam suscipit tempora sequi
+              vitae temporibus repudiandae id ea? Architecto quaerat maxime sunt
+              culpa dicta, nemo, minima enim error odio commodi sequi.
+            </p>
+          </section>
+          <!-- Semantic Aside -->
+          <aside>
+            <h3>About the author</h3>
+            <p>
+              Frontend Designer from Bordeaux, currently working for Improbable
+              in sunny London.
+            </p>
+          </aside>
+          <footer>
+            <p>There is no link here and there should.</p>
+          </footer>
+        </article>
+      </section>
+      <section>
+        <h3>From Eight</h3>
+        <p>Nine</p>
+        <p>Ten</p>
+      </section>
+
+      <footer>
+        <figure>
+          <i class="far fa-project-diagram"></i>
+        </figure>
+      </footer>
+    </main>
+  </body>
+</html>
