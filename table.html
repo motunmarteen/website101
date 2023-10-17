@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning about table in HTML</title>
+    <link rel="stylesheet" href="./assets/styles/style.css">
+</head>
+<body>
+    <header>
+        <h1>A table sample in HTML</h1>
+    </header>
+    <main>
+        <table>
+            <!-- Caption, colgroup, Thead, Tbody, Tfoot are all compnonents of the Table tag. 
+            the "tr", "td", and "th" belong to the Thead, Tbody and Tfoot. 
+          They give meaning to the html with its semantics. -->
+          <caption>Table showing name and age of AltSchool students</caption>
+          <thead>
+            <tr>
+              <th>-----Name-----</th>
+              <th>Age</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+                <td>Marteen Motun Mubaraq</td>
+                <td>99</td>
+            </tr>
+            <tr>
+                <td>Marteen Yetunde Muinat</td>
+                <td>90</td>
+            </tr>
+            <tr>
+                <td>Marteen Ateeyah Oyinkansola</td>
+                <td>09</td>
+            </tr>
+            <tr>
+                <td>Marteen Azfar Gbolahan</td>
+                <td>39</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+                <th>&copy; Marteen Motun Mubaraq</th>
+            </tr>
+          </tfoot>
+        </table>
+    </main>
+
+    <main>
+        <table>
+            <caption>This is the table of the top 3 clubs in England</caption>
+            <thead>
+                <tr>
+                    <th>Clubs</th>
+                    <th>Games Played</th>
+                    <th>Games Won</th>
+                    <th>Games Drawn</th>
+                    <th>Games Lost</th>
+                    <th>Goal For</th>
+                    <th>Goals Against</th>
+                    <th>Goal Difference</th>
+                    <th>Points Gained</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th bgcolor="red">Arsenal FC</th>
+                    <td>8</td>
+                    <td>6</td>
+                    <td colspan="2">2</td>
+                    <!-- <td>0</td> -->
+                    <td>16</td>
+                    <td>6</td>
+                    <td>10</td>
+                    <td>20</td>
+                </tr>
+                <tr>
+                    <th bgcolor="yellow">Tottenham FC</th>
+                    <td>8</td>
+                    <td>6</td>
+                    <td>2</td>
+                    <td>0</td>
+                    <td>18</td>
+                    <td>8</td>
+                    <td>10</td>
+                    <td>20</td>
+                </tr>
+                <tr>
+                    <th bgcolor="sky blue">Man City FC</th>
+                    <td>8</td>
+                    <td>6</td>
+                    <td>0</td>
+                    <td>2</td>
+                    <td>17</td>
+                    <td>6</td>
+                    <td>11</td>
+                    <td>18</td>
+                </tr>
+                <tr>
+                    <th bgcolor="brown">Liverpool FC</th>
+                    <td>8</td>
+                    <td>5</td>
+                    <td>2</td>
+                    <td>1</td>
+                    <td>18</td>
+                    <td>9</td>
+                    <td>9</td>
+                    <td>17</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+</body>
+</html>

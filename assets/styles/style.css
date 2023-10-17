@@ -1,3 +1,7 @@
 p{
     color: blue;
 }
+
+table, tr > *{
+    border: 1px solid black;
+}
